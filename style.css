@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: #f8f7ff;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover,
+nav ul li .active {
+    color: #6c63ff;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+
+.highlight {
+    color: #6c63ff;
+}
+
+.btn {
+    background: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* PROJECT CARD */
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #6c63ff;
+    border-radius: 6px;
+}
+.hero-img img {
+    width: 260px;      
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+/* ABOUT SECTION FIX */
+.about-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #6c63ff;
+}
+
+.about-container p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.skills-list li {
+    background: #fff;
+    margin: 10px auto;
+    padding: 12px;
+    max-width: 300px;
+    border-radius: 8px;
+    border-left: 4px solid #6c63ff;
+    font-size: 17px;
+}
+
+
+
+/* CONTACT SECTION FIX */
+.contact-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 36px;
+    color: #6c63ff;
+    margin-bottom: 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-container button {
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+}
